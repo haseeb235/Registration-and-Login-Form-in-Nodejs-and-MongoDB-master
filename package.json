@@ -1,29 +1,35 @@
 {
-  "name": "creating-registration-and-login-form-in-nodejs-and-mongodb",
+  "name": "onlinestore",
   "version": "1.0.0",
-  "description": "This is a user login and registration app using Node.js, Express, Mongoose and express-sessions. ",
-  "main": "server.js",
-  "dependencies": {
-    "connect-mongo": "^3.0.0",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.0.1",
-    "express": "^4.17.1",
-    "express-session": "^1.16.2",
-    "mongoose": "^5.6.10"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/guruhariharaun/creating-registration-and-login-form-in-nodejs-and-mongodb"
+    "url": "git+https://github.com/alganzory/OnlineStore.git"
   },
-  "author": "GuruRoxz",
+  "author": "Mohamed Alganzory",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guruhariharaun/creating-registration-and-login-form-in-nodejs-and-mongodb"
+    "url": "https://github.com/alganzory/OnlineStore/issues"
   },
-  "homepage": "https://github.com/guruhariharaun/creating-registration-and-login-form-in-nodejs-and-mongodb#read.me"
+  "homepage": "https://github.com/alganzory/OnlineStore#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.5",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.5"
+  }
 }
